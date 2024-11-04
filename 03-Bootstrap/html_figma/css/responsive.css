@@ -1,0 +1,39 @@
+/* 1200px to 1399px */
+@media (max-width: 1399px) {
+    .hero {
+        display: block;
+    }
+}
+
+/* 992px to 1199px */
+@media (max-width: 1199px) {
+    .hero {
+        display: none;
+    }
+}
+
+/* 768px to 991px */
+@media (max-width: 991px) {
+    .hero {
+        display: block;
+    }
+}
+
+/* 576px to 767px */
+@media (max-width: 767px) {
+    .hero {
+        display: none;
+    }
+}
+
+
+/* 481px to 575px */
+@media (max-width: 575px) {}
+
+
+/* 376px to 480px */
+@media (max-width: 480px) {}
+
+
+/* 0 to 375px */
+@media (max-width: 375px) {}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header__section */
+
+
+
+.header__section {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+    /* Nav section */
+    .nav {
+        height: 100%;
+        align-items: center;
+
+        li {
+            a {
+                font-size: 16px;
+                font-weight: 500;
+                color: #331B3B;
+
+                &.active {
+                    font-weight: 700;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 60%;
+                        height: 3px;
+                        background: #FDC221;
+                        left: 0;
+                        bottom: -4px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* logo section */
+    .logo {}
+
+    /* social section */
+    .social {
+        ul {
+            li {
+                a {
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid #ddd;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+
+/* hero__section */
+.hero__section {
+    .left__wrap {
+        padding: 100px 0;
+
+        .title {
+            font-size: 87px;
+            font-weight: 400;
+
+            .title_bold {
+                font-weight: 800;
+
+            }
+
+            .title_color {
+                position: relative;
+                z-index: 9;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 80%;
+                    height: 23px;
+                    left: 0;
+                    bottom: 21px;
+                    background: #FDC221;
+                    z-index: -1;
+                }
+            }
+        }
+
+        .sub__title {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 17px;
+            color: #331B3B;
+        }
+
+        .my__btn {
+            background: #331B3B;
+            padding: 22px 48px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 14px;
+
+        }
+    }
+
+    .right__wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+.shape {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
