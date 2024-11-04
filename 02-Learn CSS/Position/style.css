@@ -1,0 +1,26 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.element-static{
+    position: static;
+}
+
+.element-relative{
+    position: relative;
+}
+
+.element-absolute{
+    position: absolute;
+}
+
+
+.element-fixed{
+    position: fixed;
+}
+
+.element-sticky{
+    position: sticky;
+}

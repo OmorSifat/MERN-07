@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+
+
+:root{
+    --text-color:green;
+    --title-size:30px;
+    --background--color:yellow;
+    --background--color-2:teal;
+    --bangladesh-flag:red;
+}
+
+
+
+
+@font-face {
+    font-family: 'ostadFont';
+    src: url('./fonts/myfont.ttf');
+}
+
+
+
+body{
+ background-color: var(--background--color)
+}
+
+.title{
+ color: var(--text-color);
+ font-size: var(--title-size);
+}
+
+
+.my-des{
+    background-color: var(--background--color-2);
+    width: 500px;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    text-decoration:none;
+    line-height: normal;
+    word-spacing: normal;
+    letter-spacing: normal;
+    padding: 50px 10px 10px 50px;
+    
+    margin: 50px 10px 10px 50px;
+    font-family: "Ga Maamli", sans-serif;
+}
+
+
+.my-des-2{
+    background-color: var(--background--color-2);
+    width: 500px;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    text-decoration:none;
+    line-height: normal;
+    word-spacing: normal;
+    letter-spacing: normal;
+    padding: 50px 10px 10px 50px;
+    margin: 50px 10px 10px 50px;
+    font-family: "ostadFont", sans-serif;
+}

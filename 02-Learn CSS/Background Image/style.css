@@ -1,0 +1,29 @@
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    cursor:crosshair;
+    
+}
+
+
+.my-div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+}
+
+.btn-group{
+    display: inline-block;
+}
+
+
+body{
+    background-image: url('./back.webp');
+    background-position: center;
+    background-attachment:fixed;
+
+}

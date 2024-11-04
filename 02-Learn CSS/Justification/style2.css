@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+
+.end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.evenly{
+    justify-content: space-evenly;
+}
+
+
+.item{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
