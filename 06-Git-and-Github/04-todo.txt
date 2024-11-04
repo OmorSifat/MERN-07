@@ -1,0 +1,36 @@
+1. Git GitHub 
+2. GitHub Repo
+3. Git Status
+4. Git Log
+5. Git add .
+6. Git commit -m "message"
+7. Git push origin main 
+8. Git Clone 
+.....................
+9. What is Git Branch
+10. Create & works Git Branch 
+create: git branch ratul 
+check: git branch  
+select: git checkout ratul
+push: git push origin ratul
+
+11. Merging branch to main
+git merge ratul 
+git status
+git push origin main      
+
+
+
+12 . Delete branch
+git branch -d ratul
+git push origin --delete ratul
+
+13. Conflict
+
+Accept main:  git checkout --ours index.html
+Accept alam:  git checkout --theirs
+Accept both:  click button or manually remove extra >><<<>> signs 
+Abort Merge:  git merge --abort
+-> git add .
+-> git commit -m "take alam script"
+-> git push origin main
