@@ -1,0 +1,28 @@
+1. What is array?
+2. Array Index 0,1,2,........
+3. For Each Loop Over Array 
+4. For  Loop Over Array 
+5. Array Methods/Function
+    -Concat()
+    -Array.From()
+    -Includes()
+    -IndexOf()
+    -pop()
+    -push()
+    -reverse()
+    -slice
+    -sort()
+
+6. What is Object?
+
+7. What is String 
+        -trim()
+        -toUpperCase()
+        -toLowerCase()
+        -IndexOf()
+
+8. What & How JSON
+
+9. Window Object
+
+10.JavaScript Date Object
